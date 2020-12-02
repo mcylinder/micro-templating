@@ -25,14 +25,14 @@ $ live-server
 
 ## Structure
 A partial is a very simple tag with an attribute. The attribute contains the name of the file intended to replace the partial. 
-- First example references *footer.xml* in ` /atomic/org/` directory.
+- First example references the file `/atomic/org/footer.xml`
 
 ```
  <org footer></org>
 ```
      
         
-- Second example references *link_style_A.xml* in ` /atomic/atm/` directory.
+- Second example references the file `/atomic/atm/link_style_A.xml`
 
 ```
   <atm link_style_A></atm>
