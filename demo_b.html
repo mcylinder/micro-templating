@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./css/tailwind_build.css" />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <org navbar></org>
+    <main class="flex-grow">
+      <org hp_lead_1></org>
+      <div class="container mx-auto px-4">
+        <a href=""><h1 class="text-5xl  tracking-no font-normal  leading-tight">%hdln_2%</h1></a>
+        <!--4 cols -->
+        <section class="pt-6">
+          <h2 class="text-3xl mb-6">Latest Four Posts</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <org cel_vert></org>
+            <org cel_vert></org>
+            <org cel_vert></org>
+            <org cel_vert></org>
+          </div>
+        </section>
+      </div>
+    </main>
+    <org footer></org>
+  <script src="./js/app.js"></script>
+  </body>
+</html>

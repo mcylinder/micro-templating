@@ -1,0 +1,15 @@
+<div>
+<a>
+<div class="relative pb-9/16  w-full mb-3">%img_2%</div>
+<div class="px-3 py-3 w-full mb-4">
+<h3 class="text-xl mb-3 leading-6">%hdln_2%</h3>
+<p class="font-serif  tracking-normal">
+%para_2%
+</p>
+<div class="flex justify-end w-full">
+<span class=" text-sm py-1 ml-1  text-gray-600  tracking-wider">label</span> <span class="text-gray-600 ml-1">:</span>
+<span class=" text-sm py-1 ml-1  text-gray-600  tracking-wider">label</span>
+</div>
+</div></a
+>
+</div>
